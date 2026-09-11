@@ -1,64 +1,73 @@
-
-h1{
+h1 {
     color: brown;
 }
-body{
+
+body {
     background-color: black;
     color: aliceblue;
 }
-main{
-    
+
+main {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('background.jpg');
+    /* background-image: url(background.jpg); */
+
+
 }
-main{
-}
-header{
+
+
+header {
     color: red;
     font-size: 20px;
 }
-.one ,.three
-.two{
+
+.one,
+.three .two {
     display: flex;
     justify-content: center;
-    background-image: url(background.jpg);
-    background-image: linear-gradient(black);
+
+
 }
 
-.three{
+.three {
 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 200px;
-    background-image: url(background.jpg);
     background-image: -moz-linear-gradient(white);
 }
-.button{
+
+.button {
     color: red;
     background-color: red;
 }
-.four{
+
+.four {
     border: 2px solid transparent;
-    color:white;
+    color: white;
     background-color: red;
 }
-.one{
+
+.one {
     display: flex;
     justify-content: space-between;
 
 }
-.main-container{
+
+.main-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
-    gap: 10px;;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    ;
 }
 
-.card{
+.card {
     padding: 50px;
-    background: linear-gradient(to bottom, #3a193a, #1b1510 );
-   
+    background: linear-gradient(to bottom, #3a193a, #1b1510);
 
-    background-blend-mode:color-dodge;
+
+    background-blend-mode: color-dodge;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -67,21 +76,19 @@ header{
     border-spacing: 5px;
     flex-direction: column;
     background-blend-mode: lighten;
-    
+
 }
-.trnd1{color:white;
-    
+
+.trnd1 {
+    color: white;
+
 }
-.bg{
+
+.bg {
     background-image: url(background.jpg);
 }
-.ten{
+
+.ten {
     color: white;
-    font-size:50px ;
+    font-size: 50px;
 }
-
-
-
-
-
-
